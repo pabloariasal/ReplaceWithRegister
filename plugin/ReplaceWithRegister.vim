@@ -192,9 +192,9 @@ nnoremap <silent> <Plug>ReplaceWithRegisterVisual
 if ! hasmapto('<Plug>ReplaceWithRegisterOperator', 'n')
     nmap gr <Plug>ReplaceWithRegisterOperator
 endif
-if ! hasmapto('<Plug>ReplaceWithRegisterLine', 'n')
-    nmap grr <Plug>ReplaceWithRegisterLine
-endif
+"if ! hasmapto('<Plug>ReplaceWithRegisterLine', 'n')
+"    nmap grr <Plug>ReplaceWithRegisterLine
+"endif
 if ! hasmapto('<Plug>ReplaceWithRegisterVisual', 'x')
     xmap gr <Plug>ReplaceWithRegisterVisual
 endif
